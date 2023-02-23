@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :jitsses
+  resources :jits
   resources :forums
   resources :twerps
   root to: 'pages#home'
